@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45A918E21720518E0053B96E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A918E11720518E0053B96E /* UIKit.framework */; };
+		45A918E41720518E0053B96E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A918E31720518E0053B96E /* Foundation.framework */; };
+		45A918E61720518E0053B96E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A918E51720518E0053B96E /* CoreGraphics.framework */; };
+		45A918EC1720518E0053B96E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45A918EA1720518E0053B96E /* InfoPlist.strings */; };
+		45A918EE1720518E0053B96E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A918ED1720518E0053B96E /* main.m */; };
+		45A918F21720518E0053B96E /* iwAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A918F11720518E0053B96E /* iwAppDelegate.m */; };
+		45A918F41720518E0053B96E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A918F31720518E0053B96E /* Default.png */; };
+		45A918F61720518E0053B96E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A918F51720518E0053B96E /* Default@2x.png */; };
+		45A918F81720518E0053B96E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A918F71720518E0053B96E /* Default-568h@2x.png */; };
+		45A918FB1720518E0053B96E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A918F91720518E0053B96E /* MainStoryboard_iPhone.storyboard */; };
+		45A918FE1720518E0053B96E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A918FC1720518E0053B96E /* MainStoryboard_iPad.storyboard */; };
+		45A919011720518E0053B96E /* iwViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A919001720518E0053B96E /* iwViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45A918DE1720518E0053B96E /* Wordrobe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordrobe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A918E11720518E0053B96E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45A918E31720518E0053B96E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45A918E51720518E0053B96E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45A918E91720518E0053B96E /* Wordrobe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wordrobe-Info.plist"; sourceTree = "<group>"; };
+		45A918EB1720518E0053B96E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45A918ED1720518E0053B96E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45A918EF1720518E0053B96E /* Wordrobe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wordrobe-Prefix.pch"; sourceTree = "<group>"; };
+		45A918F01720518E0053B96E /* iwAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iwAppDelegate.h; sourceTree = "<group>"; };
+		45A918F11720518E0053B96E /* iwAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iwAppDelegate.m; sourceTree = "<group>"; };
+		45A918F31720518E0053B96E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		45A918F51720518E0053B96E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		45A918F71720518E0053B96E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		45A918FA1720518E0053B96E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		45A918FD1720518E0053B96E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		45A918FF1720518E0053B96E /* iwViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iwViewController.h; sourceTree = "<group>"; };
+		45A919001720518E0053B96E /* iwViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iwViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45A918DB1720518E0053B96E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A918E21720518E0053B96E /* UIKit.framework in Frameworks */,
+				45A918E41720518E0053B96E /* Foundation.framework in Frameworks */,
+				45A918E61720518E0053B96E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45A918D51720518E0053B96E = {
+			isa = PBXGroup;
+			children = (
+				45A918E71720518E0053B96E /* Wordrobe */,
+				45A918E01720518E0053B96E /* Frameworks */,
+				45A918DF1720518E0053B96E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45A918DF1720518E0053B96E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45A918DE1720518E0053B96E /* Wordrobe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45A918E01720518E0053B96E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45A918E11720518E0053B96E /* UIKit.framework */,
+				45A918E31720518E0053B96E /* Foundation.framework */,
+				45A918E51720518E0053B96E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45A918E71720518E0053B96E /* Wordrobe */ = {
+			isa = PBXGroup;
+			children = (
+				45A918F01720518E0053B96E /* iwAppDelegate.h */,
+				45A918F11720518E0053B96E /* iwAppDelegate.m */,
+				45A918F91720518E0053B96E /* MainStoryboard_iPhone.storyboard */,
+				45A918FC1720518E0053B96E /* MainStoryboard_iPad.storyboard */,
+				45A918FF1720518E0053B96E /* iwViewController.h */,
+				45A919001720518E0053B96E /* iwViewController.m */,
+				45A918E81720518E0053B96E /* Supporting Files */,
+			);
+			path = Wordrobe;
+			sourceTree = "<group>";
+		};
+		45A918E81720518E0053B96E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45A918E91720518E0053B96E /* Wordrobe-Info.plist */,
+				45A918EA1720518E0053B96E /* InfoPlist.strings */,
+				45A918ED1720518E0053B96E /* main.m */,
+				45A918EF1720518E0053B96E /* Wordrobe-Prefix.pch */,
+				45A918F31720518E0053B96E /* Default.png */,
+				45A918F51720518E0053B96E /* Default@2x.png */,
+				45A918F71720518E0053B96E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45A918DD1720518E0053B96E /* Wordrobe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A919041720518E0053B96E /* Build configuration list for PBXNativeTarget "Wordrobe" */;
+			buildPhases = (
+				45A918DA1720518E0053B96E /* Sources */,
+				45A918DB1720518E0053B96E /* Frameworks */,
+				45A918DC1720518E0053B96E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wordrobe;
+			productName = Wordrobe;
+			productReference = 45A918DE1720518E0053B96E /* Wordrobe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45A918D61720518E0053B96E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iw;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "University of Groningen";
+			};
+			buildConfigurationList = 45A918D91720518E0053B96E /* Build configuration list for PBXProject "Wordrobe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45A918D51720518E0053B96E;
+			productRefGroup = 45A918DF1720518E0053B96E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45A918DD1720518E0053B96E /* Wordrobe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45A918DC1720518E0053B96E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A918EC1720518E0053B96E /* InfoPlist.strings in Resources */,
+				45A918F41720518E0053B96E /* Default.png in Resources */,
+				45A918F61720518E0053B96E /* Default@2x.png in Resources */,
+				45A918F81720518E0053B96E /* Default-568h@2x.png in Resources */,
+				45A918FB1720518E0053B96E /* MainStoryboard_iPhone.storyboard in Resources */,
+				45A918FE1720518E0053B96E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45A918DA1720518E0053B96E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A918EE1720518E0053B96E /* main.m in Sources */,
+				45A918F21720518E0053B96E /* iwAppDelegate.m in Sources */,
+				45A919011720518E0053B96E /* iwViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45A918EA1720518E0053B96E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45A918EB1720518E0053B96E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45A918F91720518E0053B96E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45A918FA1720518E0053B96E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		45A918FC1720518E0053B96E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45A918FD1720518E0053B96E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45A919021720518E0053B96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45A919031720518E0053B96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45A919051720518E0053B96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wordrobe/Wordrobe-Prefix.pch";
+				INFOPLIST_FILE = "Wordrobe/Wordrobe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45A919061720518E0053B96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wordrobe/Wordrobe-Prefix.pch";
+				INFOPLIST_FILE = "Wordrobe/Wordrobe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45A918D91720518E0053B96E /* Build configuration list for PBXProject "Wordrobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A919021720518E0053B96E /* Debug */,
+				45A919031720518E0053B96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A919041720518E0053B96E /* Build configuration list for PBXNativeTarget "Wordrobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A919051720518E0053B96E /* Debug */,
+				45A919061720518E0053B96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45A918D61720518E0053B96E /* Project object */;
+}
