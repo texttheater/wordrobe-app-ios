@@ -19,6 +19,8 @@
 		45A918FB1720518E0053B96E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A918F91720518E0053B96E /* MainStoryboard_iPhone.storyboard */; };
 		45A918FE1720518E0053B96E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A918FC1720518E0053B96E /* MainStoryboard_iPad.storyboard */; };
 		45A919011720518E0053B96E /* iwViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A919001720518E0053B96E /* iwViewController.m */; };
+		45A91908172051AD0053B96E /* Wordrobe_normal_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A91907172051AD0053B96E /* Wordrobe_normal_icon.png */; };
+		45A9190A172051B30053B96E /* Wordrobe_retina_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 45A91909172051B30053B96E /* Wordrobe_retina_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		45A918FD1720518E0053B96E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		45A918FF1720518E0053B96E /* iwViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iwViewController.h; sourceTree = "<group>"; };
 		45A919001720518E0053B96E /* iwViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iwViewController.m; sourceTree = "<group>"; };
+		45A91907172051AD0053B96E /* Wordrobe_normal_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wordrobe_normal_icon.png; sourceTree = "<group>"; };
+		45A91909172051B30053B96E /* Wordrobe_retina_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wordrobe_retina_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		45A918D51720518E0053B96E = {
 			isa = PBXGroup;
 			children = (
+				45A91909172051B30053B96E /* Wordrobe_retina_icon.png */,
+				45A91907172051AD0053B96E /* Wordrobe_normal_icon.png */,
 				45A918E71720518E0053B96E /* Wordrobe */,
 				45A918E01720518E0053B96E /* Frameworks */,
 				45A918DF1720518E0053B96E /* Products */,
@@ -168,6 +174,8 @@
 				45A918F81720518E0053B96E /* Default-568h@2x.png in Resources */,
 				45A918FB1720518E0053B96E /* MainStoryboard_iPhone.storyboard in Resources */,
 				45A918FE1720518E0053B96E /* MainStoryboard_iPad.storyboard in Resources */,
+				45A91908172051AD0053B96E /* Wordrobe_normal_icon.png in Resources */,
+				45A9190A172051B30053B96E /* Wordrobe_retina_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

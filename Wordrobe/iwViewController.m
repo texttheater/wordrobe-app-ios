@@ -16,14 +16,18 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+        [super viewDidLoad];
+        // Do any additional setup after loading the view, typically from a nib.
+        NSString *fullURL = @"http://wordrobe.housing.rug.nl/Wordrobe/public/Login.aspx";
+        NSURL *url = [NSURL URLWithString:fullURL];
+        NSURLRequest *reqObj = [NSURLRequest requestWithURL:url];
+        [_webView loadRequest:reqObj];
 }
 
 - (void)didReceiveMemoryWarning
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+        [super didReceiveMemoryWarning];
+        // Dispose of any resources that can be recreated.
 }
 
 @end
